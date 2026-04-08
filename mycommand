@@ -1,3 +1,4 @@
 sudo lsof -i -P -n | grep LISTEN  # to find which ip's are lsitening
-nohub  ---to run procees in background
+nohup  ---to run procees in background
+pm2
 
