@@ -1,1 +1,11 @@
+useradd ravina
+cat /etc/passwd ---show the user created details
+passwd username ----create a passowrd for user
+cat /etc/shadow  ---show the password details
+adduser username ---it's a intercative terminal which ask more info about user
+paaswd username
+chage -M 90 username ----set the policy to roatate the password
+passwd -l username ---lock the user
+passwd -u username --to unlock the user
+
 
