@@ -96,6 +96,17 @@ Set a new umask:
 ```bash
 umask 022  # Default: 755 for directories, 644 for files
 ```
+```bash
+0 → Owner
+2 → Group
+7 → Others
+
+Each number removes permissions:
+
+0 → remove nothing
+2 → remove write (w)
+7 → remove read, write, execute (rwx)
+```
 
 ## Conclusion
 Understanding file permissions is essential for system security and proper file management. Using `chmod`, `chown`, and `chgrp`, you can control access to files and directories efficiently.
