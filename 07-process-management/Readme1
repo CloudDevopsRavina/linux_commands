@@ -1,0 +1,68 @@
+🚀 What is BOOT?
+
+Boot means the process of starting a computer.
+
+When you power ON a Linux system:
+
+BIOS/UEFI starts hardware checks
+Bootloader loads Linux kernel
+Kernel starts the operating system
+System services start
+You get login screen
+
+👉 This whole startup process is called booting
+
+🧠 Simple meaning:
+
+Boot = turning ON the system and starting Linux
+
+⚙️ What is a DAEMON?
+
+A daemon (pronounced “DEE-muhn”) is a background process that runs continuously in Linux.
+
+It performs services without user interaction.
+
+Examples:
+
+web server
+SSH service
+logging service
+cron jobs
+📌 Example daemons:
+systemd (manages all services)
+sshd (remote login service)
+httpd (web server)
+🧠 Simple meaning:
+
+Daemon = background service that keeps running and does work
+
+🔥 Relationship between Boot and Daemon
+
+When Linux boots:
+
+👉 It automatically starts important daemons
+
+Example:
+
+At boot → system starts
+Then systemd starts services like sshd, httpd, etc.
+🍔 Easy analogy
+
+Think of a restaurant:
+
+Boot = Opening the restaurant
+Daemons = Workers inside
+chef cooks
+waiter serves
+cashier handles billing
+
+All work in background while restaurant is open
+
+⚡ Quick difference
+Boot	Daemon
+System startup process	Background service
+Happens once at power ON	Runs continuously
+Starts OS + services	Performs tasks
+🎯 One-line summary
+Boot = starting the system
+Daemon = background service running after boot
