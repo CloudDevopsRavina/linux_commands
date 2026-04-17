@@ -168,3 +168,21 @@ systemctl enable service-name
 
 ## Conclusion
 Process management is crucial for system performance and stability. By using tools like `ps`, `top`, `htop`, `kill`, and `nice`, you can efficiently control and monitor Linux processes.
+
+🔹` 1. nice command`
+
+👉 Used to start a new process with a given priority
+
+📌 Meaning:
+Sets priority at the time of process creation
+📊 Priority range:
+-20 → highest priority (most CPU time)
+0 → default priority
++19 → lowest priority (least CPU time)
+
+⚠️ Higher value = lower priority
+
+✅ Example:
+nice -n 10 python app.py
+
+👉 Runs app.py with lower priority
