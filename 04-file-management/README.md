@@ -15,7 +15,7 @@
 ### File Viewing and Editing
 11. **`cat file.txt`** – Displays file content.
 12. **`tac file.txt`** – Displays file content in reverse order.
-13. **`less file.txt`** – Opens a file for viewing with scrolling support.
+13. **`less file.txt`** – Opens a file for viewing with scrolling support. q to exit
 14. **`more file.txt`** – Similar to `less`, but only moves forward.
 15. **`head -n 10 file.txt`** – Displays the first 10 lines of a file.
 16. **`tail -n 10 file.txt`** – Displays the last 10 lines of a file.
